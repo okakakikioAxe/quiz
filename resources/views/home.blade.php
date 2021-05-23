@@ -4,7 +4,7 @@
 
 @section('konten')
     <div class="container-fluid">
-        <img src="quiz.png" class="mw-100" alt="">
+        <img src="{{asset('gambar/quiz.png')}}" class="mw-100" alt="">
     </div>
 
     <br>
