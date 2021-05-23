@@ -15,3 +15,5 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [PageController::class, 'index']);
+Route::get('/quiz', [PageController::class, 'quiz']);
+Route::get('/aboutus', [PageController::class, 'aboutus']);
