@@ -18,11 +18,11 @@
                 
                 <div class="row m-4">
                   <h5>Tentang saya</h5>
-                  <p>Namaku Lukman Muhamad Ilham, lahir di Kediri, 23 Maret 2001. Sekarang ini berstatus mahasiswa Universitas 17 Agustus 1945 Surabaya. Hobiku adalah membuat program dan bermain youtube.</p>
+                  <p>My name is Lukman Muhamad Ilham. I was born in Kediri, 23 March 2001. Now study in University of 17 August 1945 Surabaya. My hobby is writing programs and playing youtube.</p>
                 </div>
                 
                 <div class="row m-4">
-                  <h5>Hubungi saya : </h5>
+                  <h5>My contact : </h5>
                 </div>
                 <div class="row m-4">
                   <div class="col-2">
