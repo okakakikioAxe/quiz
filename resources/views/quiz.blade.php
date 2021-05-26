@@ -8,7 +8,7 @@
     <div class="container-fluid text-center">
         <div class="row">
             <div class="col-md p-4">
-                <a href="{{url(quiz/bahasaIndonesia)}}">
+                <a href="{{url(/quiz/bahasaIndonesia)}}">
                     <img src="{{asset('gambar/bahasa indonesia.png')}}" class="gambar rounded" alt="bahasa indonesia">
                 </a>
             </div>
