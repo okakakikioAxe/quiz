@@ -7,6 +7,6 @@ use Illuminate\Http\Request;
 class QuizController extends Controller
 {
     public function bahasaIndonesia(){
-        echo "halo semua";
+        return view ('gameplay');
     }
 }
