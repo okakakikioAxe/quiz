@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\PageController;
+use App\Http\Controllers\QuizController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -17,3 +18,4 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', [PageController::class, 'index']);
 Route::get('/quiz', [PageController::class, 'quiz']);
 Route::get('/aboutus', [PageController::class, 'aboutus']);
+Route::get('/quiz/bahasaIndonesia', [QuizController::class, 'bahasaIndonesia']);
