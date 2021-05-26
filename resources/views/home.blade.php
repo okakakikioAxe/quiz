@@ -26,7 +26,10 @@
     </div>
 
     <div class="container text-center">
-        <button onclick="" type="button" style="width: 300px;height: 80px;font-size: 30px;" class="btn btn-primary">Lets Go</button>
+        <a href="{{url('/quiz')}}">
+            <button type="button" style="width: 300px;height: 80px;font-size: 30px;" class="btn btn-primary">Lets Go</button>
+        </a>
+        
     </div>
     <br>
     <br>

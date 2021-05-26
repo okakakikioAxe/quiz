@@ -17,7 +17,7 @@
             <div class="col-md">
                 
                 <div class="row m-4">
-                  <h5>Tentang saya</h5>
+                  <h5>About me</h5>
                   <p>My name is Lukman Muhamad Ilham. I was born in Kediri, 23 March 2001. Now study in University of 17 August 1945 Surabaya. My hobby is writing programs and playing youtube.</p>
                 </div>
                 
