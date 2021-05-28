@@ -18,10 +18,15 @@ class CreateSoalMatematikaTable extends Migration
             $table->increments('id');
             $table->string('question');
             $table->string('answer');
-            $table->string('option 1');
-            $table->string('option 2');
-            $table->string('option 3');
+            $table->string('option1');
+            $table->string('option2');
+            $table->string('option3');
         });
+        DB::statement("ALTER TABLE `soal_matematika` ADD `question_img` MEDIUMBLOB");
+        DB::statement("ALTER TABLE `soal_matematika` ADD `answer_img` MEDIUMBLOB");
+        DB::statement("ALTER TABLE `soal_matematika` ADD `option1_img` MEDIUMBLOB");
+        DB::statement("ALTER TABLE `soal_matematika` ADD `option2_img` MEDIUMBLOB");
+        DB::statement("ALTER TABLE `soal_matematika` ADD `option3_img` MEDIUMBLOB");
     }
 
     /**
