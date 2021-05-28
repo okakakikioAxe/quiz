@@ -3,6 +3,7 @@
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
+use Illuminate\Support\Facades\DB;
 
 class CreateSoalMatematikaTable extends Migration
 {
@@ -14,8 +15,12 @@ class CreateSoalMatematikaTable extends Migration
     public function up()
     {
         Schema::create('soal_matematika', function (Blueprint $table) {
-            $table->id();
-            $table->timestamps();
+            $table->increments('id');
+            $table->string('question');
+            $table->string('answer');
+            $table->string('option 1');
+            $table->string('option 2');
+            $table->string('option 3');
         });
     }
 
